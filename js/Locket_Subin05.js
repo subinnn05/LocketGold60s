@@ -1,5 +1,5 @@
 // ========= ID ========= //
-// Locket: Gold + Filter Pack
+// Locket: Gold + Filter
 // subinnn05
 // ========= Phần cố định ========= //
 
@@ -8,8 +8,8 @@ var obj = JSON.parse($response.body);
 
 obj.Attention = "Chúc mừng bạn! Vui lòng không sử dụng chúng dưới mục đích thương mại!";
 
-var FAR_FUTURE = "9999-01-09T10:10:14Z";
-var PAST = "2005-01-09T10:10:14Z";
+var FAR_FUTURE = "9999-05-01T10:10:14Z";
+var PAST = "2005-05-01T10:10:14Z";
 
 function makeSub(displayName, amount, currency) {
   return {
